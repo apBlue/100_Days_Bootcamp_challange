@@ -7,4 +7,5 @@ people = int(input("How many people to split the bill? "))
 
 Pay = (total_bill*(tip_percentage/100+1))/people
 
-print("Each person should pay: ", round(Pay, 2))
+# print("Each person should pay: ", round(Pay, 2))
+print("Each person should pay: ", "{:.2f}".format(Pay))
